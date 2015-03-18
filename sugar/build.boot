@@ -10,7 +10,7 @@
 (bootlaces! +version+)
 
 (task-options!
- pom  {:project     'org.leanpixel/sugar
+ pom  {:project     'org.clojars.leanpixel/sugar
        :version     +version+
        :description "Sugar.js packaged up with Google Closure externs"
        :url         "http://sugarjs.com/"
@@ -26,4 +26,4 @@
     (sift :move {#"sugar-full.dev.js" "cljsjs/development/sugar.inc.js"
                  #"sugar-full.min.js" "cljsjs/production/sugar.min.inc.js"})
     (sift :include #{#"^cljsjs"})
-    (deps-cljs :name "org.leanpixel/sugar")))
+    (deps-cljs :name "org.clojars.leanpixel/sugar")))
