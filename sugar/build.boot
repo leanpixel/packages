@@ -26,4 +26,4 @@
     (sift :move {#"sugar-full.dev.js" "cljsjs/development/sugar.inc.js"
                  #"sugar-full.min.js" "cljsjs/production/sugar.min.inc.js"})
     (sift :include #{#"^cljsjs"})
-    (deps-cljs :name "cljsjs.sugar")))
+    (deps-cljs :name "org.leanpixel/sugar")))
