@@ -10,7 +10,7 @@
 (bootlaces! +version+)
 
 (task-options!
- pom  {:project     'cljsjs/sugar
+ pom  {:project     'org.leanpixel/sugar
        :version     +version+
        :description "Sugar.js packaged up with Google Closure externs"
        :url         "http://sugarjs.com/"
